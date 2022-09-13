@@ -1,18 +1,21 @@
 public class Task01 {
 
-    sum {
+    public static void sum(int a, int b) {
 
 //        logic
-        int result = 5 + 6;
+        int result = a + b;
     }
 
-    public static void main(String[] args) {
+    public static void print(int result) {
 
 //        output
         System.out.println(result);
+    }
 //
+        public static void main(String[] args) {
 
-        file.open("text.txt");
-        file.write(result);
+            print(23576);
+            print(536);
+            print(34);
     }
 }
